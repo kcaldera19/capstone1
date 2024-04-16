@@ -1,3 +1,9 @@
 .login_name{
     background-color: rgb(137, 132, 112);
 }
+.navbar-brand{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
