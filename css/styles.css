@@ -10,3 +10,8 @@
 .registartion{
     background-color: rgb(137, 132, 112);
 }
+.products{
+    width: 50%;
+    height: 25vw;
+    object-fit: cover;
+}
