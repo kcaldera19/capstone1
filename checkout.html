@@ -54,55 +54,124 @@
     </div>
     <div class="container">
         <h4 class="mb-3">Biling Address</h4>
-        <form novalidate>
-            <div class="row g-3">
-                <div class="col-sm-6">
-                    <label for="firstName" class="form-label">First Name</label>
-                    <input id="firstName" type="text" class="form-control" placeholder="Clark" required>
-                    <div class="invalid-feedback">
-                        valid first name is required.
-                    </div>
-                </div>
 
-                <div class="col-sm-6">
-                    <label for="firstName" class="form-label">Last Name</label>
-                    <input id="lastName" type="text" class="form-control" placeholder="Kent" required>
-                    <div class="invalid-feedback">
-                        valid last name is required.
-                    </div>
+        <div class="row g-3">
+            <div class="col-sm-6">
+                <label for="firstName" class="form-label">First Name</label>
+                <input id="firstName" type="text" class="form-control" placeholder="Clark" required>
+                <div class="invalid-feedback">
+                    valid first name is required.
                 </div>
-                <div class="col-12">
-                    <label for="firstName" class="form-label">Username</label>
-                    <div class="input-group">
-                        <span class="input-group-text">
-                            @
-                        </span>
-                        <input id="username" type="text" class="form-control" placeholder="Ckent01" required>
-                        <div class="invalid-feedback">
-                            valid first name is required.
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <label for="country" 
-                        class="form-label">Country</label>
-                    <div class="input-group">
-                        <span class="input-group-text">
-                            @
-                        </span>
-                        <input id="username" type="text"
-                         class="form-control" placeholder="Ckent01" required>
-                        <div class="invalid-feedback">
-                            valid first name is required.
-                        </div>
-                    </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label for="firstName" class="form-label">Last Name</label>
+                <input id="lastName" type="text" class="form-control" placeholder="Kent" required>
+                <div class="invalid-feedback">
+                    valid last name is required.
                 </div>
+            </div>
+        </div>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
         </form>
+        <hr class="mb-4">
+        <!--Payment Form -->
+        <form class="was-validated">
+            <div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+                    <label class="form-check-label" for="validationFormCheck1">Shipping address is the same as my
+                        billing address</label>
+                   
+
+                </div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+                    <label class="form-check-label" for="validationFormCheck1">New address</label>
+                    <!-- <div class="invalid-feedback"></div> -->
+                </div>
+                <hr class="mb-4">
+            </div>
+            
+
+
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                <label class="form-check-label" for="validationFormCheck2">Credit card</label>
+            </div>
+            <div class="form-check mb-3">
+                <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                <label class="form-check-label" for="validationFormCheck3">Debit</label>
+                <label class="form-check-label" for="validationFormCheck3">Paypal</label>
+                <div class="invalid-feedback">More example invalid feedback text</div>
+            </div>
+
+            <div class="mb-3">
+                <select class="form-select" required aria-label="select example">
+                    <option value="">Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <div class="invalid-feedback">Example invalid select feedback</div>
+            </div>
+
+            <div class="mb-3">
+                <input type="file" class="form-control" aria-label="file example" required>
+                <div class="invalid-feedback">Example invalid form file feedback</div>
+            </div>
+
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit" disabled>Submit form</button>
+            </div>
+        </form>
+
     </div>
 
 
-    </div>
 
-    </div>
 
 
 
