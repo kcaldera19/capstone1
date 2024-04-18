@@ -1,40 +1,45 @@
-.login_name{
+.login_name {
     background-color: rgb(137, 132, 112);
 }
-.navbar-brand{
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: italic;
+
+.navbar-brand {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
 }
-.registartion{
+
+.registartion {
     background-color: rgb(137, 132, 112);
 }
-#products{
+
+#products {
     width: 70%;
     height: 25vw;
     object-fit: cover;
-   
+
 }
-.cards_img{
+
+.cards_img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
-.story_img{
+
+.story_img {
     width: 30%;
     height: 200px;
     object-fit: cover;
 }
-.tickets_img{
+
+.tickets_img {
     width: 100%;
     height: 320px;
     object-fit: cover;
 }
-picture img{
+
+picture img {
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 10px;
-
-
 }
