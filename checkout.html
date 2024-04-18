@@ -104,17 +104,7 @@
                 <label for="inputZip" class="form-label">Zip</label>
                 <input type="text" class="form-control" id="inputZip">
             </div>
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Check me out
-                    </label>
-                </div>
-            </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
-            </div>
+
         </form>
         <hr class="mb-4">
         <!--Payment Form -->
@@ -134,6 +124,7 @@
                 </div>
                 <hr class="mb-4">
             </div>
+            <!-- included payment type -->
 
 
 
@@ -141,12 +132,17 @@
                 <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
                 <label class="form-check-label" for="validationFormCheck2">Credit card</label>
             </div>
-            <div class="form-check mb-3">
+            <div class="form-check mb-3 mt-3">
                 <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
                 <label class="form-check-label" for="validationFormCheck3">Debit</label>
-                <label class="form-check-label" for="validationFormCheck3">Paypal</label>
+
 
             </div>
+            <div class="form-check mb-3">
+                <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                <label class="form-check-label" for="validationFormCheck3">Paypal</label>
+            </div>
+            <!-- included Card info -->
 
             <div class="row">
                 <div class="col mb-4">
@@ -158,10 +154,14 @@
                         Full name, as displayed on the card
                     </small>
                 </div>
+
                 <div class="col mb-4">
-                    </label for="Card2">
+                    <label for="Card2">
+                        Credit card Number
+                    </label>
                     <input type="text" class="form-control" placeholder="1234-5678-9012" aria-label="Card2">
                 </div>
+
             </div>
             <div class="row">
                 <div class="col mb-3">
