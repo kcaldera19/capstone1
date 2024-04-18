@@ -2,7 +2,11 @@
 
 This is an E-commerce website that sells tickets contains schedules and gives a breif story about the theater.
 
+
+
 It includes the Home page, Tickets/Events,Checkout,Login and User registration page.
+
+*This Page consists of Html,Css, and Bootsrap for all the following pages.
 
 The index.html page consistent of 
 *Navbar that stretches throughout all the pages. 
