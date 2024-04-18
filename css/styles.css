@@ -31,3 +31,10 @@
     height: 320px;
     object-fit: cover;
 }
+picture img{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+
+}
