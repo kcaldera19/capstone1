@@ -8,40 +8,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    
+
 
 </head>
 
 <body style=background-color:#bfbfbf;>
-   <!-- included navigation -->
-   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">OVNI THEATER</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
-                    </li>
+    <!-- included navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">OVNI THEATER</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="products_services.html">Tickets/Showings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="checkout.html">Checkout</a>
-                    </li>
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products_services.html">Tickets/Showings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="checkout.html">Checkout</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
     <div class="container">
         <!--included heading for checkout -->
 
@@ -49,7 +49,7 @@
         <!-- lightened text -->
         <p class="lead text-center">Thank You for supporting The Arts</p>
 
-        </p>
+
     </div>
     <div class="container">
         <div class="row">
@@ -58,31 +58,37 @@
                 <span class="badge rounded-pill bg-secondary">3</span>
             </h4>
             <div class="card">
-                <li class="list-group-item d-flex justify-content-between 1h-condensed">
-                    <div>
-                        <h6 class="my-0">Peter Pan</h6>
-                        <small class="texted-muted">Showing on May 20th</small>
-                    </div>
-                    <span class="text-muted">$30</span>
-                </li>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between 1h-condensed">
+                        <div>
+                            <h6 class="my-0">Peter Pan</h6>
+                            <small class="texted-muted">Showing on May 20th</small>
+                        </div>
+                        <span class="text-muted">$30</span>
+                    </li>
+                </ul>
             </div>
             <div class="card mt-3">
-                <li class="list-group-item d-flex justify-content-between 1h-condensed">
-                    <div>
-                        <h6 class="my-0">The Nutcracker</h6>
-                        <small class="texted-muted">Showing on May 22nd</small>
-                    </div>
-                    <span class="text-muted">$30</span>
-                </li>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between 1h-condensed">
+                        <div>
+                            <h6 class="my-0">The Nutcracker</h6>
+                            <small class="texted-muted">Showing on May 22nd</small>
+                        </div>
+                        <span class="text-muted">$30</span>
+                    </li>
+                </ul>
             </div>
             <div class="card mt-3" styles="">
-                <li class="list-group-item d-flex justify-content-between 1h-condensed">
-                    <div>
-                        <h6 class="my-0">Wicked</h6>
-                        <small class="texted-muted">Showing on April 20th</small>
-                    </div>
-                    <span class="text-muted">$30</span>
-                </li>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between 1h-condensed">
+                        <div>
+                            <h6 class="my-0">Wicked</h6>
+                            <small class="texted-muted">Showing on April 20th</small>
+                        </div>
+                        <span class="text-muted">$30</span>
+                    </li>
+                </ul>
             </div>
             <li class="list-group-item d-flex justify-content-between bg-light mt-3">
                 <div class="text-success text-center">
@@ -222,7 +228,8 @@
                 <label for="inputcredit">
                     Credit card Number
                 </label>
-                <input type="text" class="form-control" id="inputcredit" placeholder="1234-5678-9012=1234" aria-label="Card2">
+                <input type="text" class="form-control" id="inputcredit" placeholder="1234-5678-9012=1234"
+                    aria-label="Card2">
             </div>
 
         </div>
@@ -245,7 +252,7 @@
             </div>
 
         </div>
-        </form>
+
 
 
 
