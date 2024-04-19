@@ -2,29 +2,34 @@
 
 # Onvi Thaeter E-commerce website Project, capstone1
 
-## This is an E-commerce website that sells tickets contains checkout, schedules and gives a breif story about the theater.
+## This is an E-commerce website that sells tickets, contains checkout page, schedules and gives a breif story about the theater.
 
 
 
 
-
- ### This Page consists of Html,Css, and Bootsrap for all the following pages.
- * This projects includes the Home page, Tickets/Events,Checkout,Css,Login and User registration page.
+## Technologies Used
+This Page consists of Html,CSS, and Bootsrap for all the following pages.
+ 
+* The Home page
+* Tickets/Events page
+* Checkout page
+* Login page 
+* User registration page.
  
 
-* The index.html page consistent of 
+## The index.html page 
 * Navbar that stretches throughout all the pages. 
 * carousel which it includes three images.
 * Two cards which include one image each with a title at the bottom.
 * I put a break between the card and our story and a background color
 * The story gives a short description of the theater.
-* Below the story I included three images with margins on the right and left.
+* Below the story I included three images
 * Underneath the story I add a break and changed the color to white.
 *  At the bottom of the page I add an image of the seating.
 ![alt text](images.jpg/indexpage2.png)
 ![alt text](images.jpg/indexpage.png)
 
-## The product_services page consistent of
+## The Products Services page
 * Hero image
 * Title that says showing
 * Underneath the title I have six cards with each with there own image.
